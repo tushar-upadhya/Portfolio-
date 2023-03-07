@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-// import developer from "../../Assets/developer.jpg";
+import about from "../../Assets/about.jpg";
 import { SKILLS, TOOLS } from "../../Constants";
 
 function About() {
@@ -30,7 +30,7 @@ function About() {
                         style={{ paddingBottom: "50px" }}
                         className="about-img"
                     >
-                        <img src={About} alt="about" className="image-style" />
+                        <img src={about} alt="about" className="image-style" />
                     </Col>
                 </Row>
                 <Row className="skill-tools-wrapper">
@@ -40,10 +40,13 @@ function About() {
                             <strong className="purple">Skillset </strong>
                         </h1>
                         {SKILLS.map((skill, index) => (
-                            <Techstack name={skill.name} key={index} />
+                            <Techstack
+                                name={skill.name}
+                                initialRating={skill.initialRating}
+                                key={index}
+                            />
                         ))}
                     </Col>
-
                     <Col className="skill-wrapper">
                         <h1 className="project-heading">
                             <strong className="purple">Tools</strong> I use
