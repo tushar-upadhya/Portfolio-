@@ -40,11 +40,9 @@ function About() {
                             <strong className="purple">Skillset </strong>
                         </h1>
                         {SKILLS.map((skill, index) => (
-                            <Techstack
-                                key={index}
-                                name={skill.name}
-                                initialRating={skill.initialRating}
-                            />
+                            <ul className="tool-name" key={index}>
+                                <li>{skill.name}</li>
+                            </ul>
                         ))}
                     </Col>
                     <Col className="skill-wrapper">

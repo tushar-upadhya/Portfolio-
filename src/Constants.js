@@ -33,14 +33,7 @@ export const PROJECTS = [
             "An e-commerce program for browsing and purchasing products online, with a catalog, shopping cart, checkout, and payment integration.",
         url: "https://shopping-cart-redux-eta.vercel.app/",
     },
-    {
-        image: weather,
-        name: "Weather App",
-        technologyUsed: "React,  Javascript, CSS, HTML",
-        description:
-            "A program for displaying weather information, using an API to retrieve current and forecast data and displaying it in a user-friendly format, with location search and geolocation support.",
-        url: "https://weather-app-theta-jade.vercel.app/",
-    },
+
     {
         image: booking,
         name: "Booking.com-clone",
@@ -65,14 +58,6 @@ export const PROJECTS = [
         description:
             "Our face recognition technology detects emotions in real-time. Whether for market research, security, or understanding people around you, our system provides valuable insights.",
         url: "https://face-detection-ckfy.vercel.app/",
-    },
-    {
-        image: url,
-        name: "Url - short",
-        technologyUsed: " Javascript, CSS, HTML",
-        description:
-            "A program that creates shorter, unique codes for long URLs, storing the original and shortened URLs in a database, and providing a simple and convenient way to share and access URLs.",
-        url: "https://url-shorten-it-js.vercel.app/",
     },
 ];
 
