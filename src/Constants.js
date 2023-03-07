@@ -15,7 +15,7 @@ export const PROJECTS = [
         technologyUsed: "React, Javascript, CSS, HTML",
         description:
             "A to-do app is a tool to create and manage task lists, helping you stay organized and on track with your daily activities.",
-        url: "https://github.com/tushar-upadhya/todo-redux",
+        url: "https://todo-redux-ten-mu.vercel.app/",
     },
     {
         image: mi,
