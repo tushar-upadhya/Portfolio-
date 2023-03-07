@@ -41,9 +41,9 @@ function About() {
                         </h1>
                         {SKILLS.map((skill, index) => (
                             <Techstack
+                                key={index}
                                 name={skill.name}
                                 initialRating={skill.initialRating}
-                                key={index}
                             />
                         ))}
                     </Col>
