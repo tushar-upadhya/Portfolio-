@@ -5,13 +5,21 @@ import pizza from "./Assets/pizza.jpg";
 import youtube from "./Assets/youtube.jpg";
 import url from "./Assets/url.jpg";
 import shopping from "./Assets/shopping.jpg";
-import weather from "./Assets/weather.jpg";
+import Todo from "./Assets/Todo.jpg";
 import mi from "./Assets/mi.jpg";
 
 export const PROJECTS = [
     {
+        image: Todo,
+        name: "Todo",
+        technologyUsed: "React, Javascript, CSS, HTML",
+        description:
+            "A to-do app is a tool to create and manage task lists, helping you stay organized and on track with your daily activities.",
+        url: "https://github.com/tushar-upadhya/todo-redux",
+    },
+    {
         image: mi,
-        name: "Mi store - WORK IN PROGRESS",
+        name: "Mi store",
         technologyUsed: "React, Javascript, CSS, HTML",
         description:
             "I created a MI store clone using React, demonstrating my ability to build user-friendly web applications. I am excited to continue exploring the potential of this powerful JavaScript library and have experience using additional technologies, such as React Router, to enhance the functionality of the application.",
@@ -42,14 +50,14 @@ export const PROJECTS = [
             "A website and mobile app that allows users to search for and book accommodations, including hotels, apartments, and vacation rentals, with features such as filters, reviews, and booking management.",
         url: "https://booking-com-final-version.vercel.app/",
     },
-    {
-        image: quiz,
-        name: "Quiz",
-        technologyUsed: "ReactJs, Material-Ui, Javascript, CSS, HTML",
-        description:
-            "A program that presents users with a set of questions and provides instant feedback on their answers, with features such as multiple choice, true/false, and open-ended questions, and scoring and leaderboard functionality.",
-        url: "https://quizi-iota.vercel.app/",
-    },
+    // {
+    //     image: quiz,
+    //     name: "Quiz",
+    //     technologyUsed: "ReactJs, Material-Ui, Javascript, CSS, HTML",
+    //     description:
+    //         "A program that presents users with a set of questions and provides instant feedback on their answers, with features such as multiple choice, true/false, and open-ended questions, and scoring and leaderboard functionality.",
+    //     url: "https://quizi-iota.vercel.app/",
+    // },
 
     {
         image: face,
